@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>g3-architects.com</title>
+    <style>
+        p{
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Work Sans', sans-serif; 
+        }
+        .header{
+            background-color: rgb(243, 236, 227);
+            
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            margin: 50px;
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+        }
+        nav li{
+            list-style: none;
+            margin-left: 50px;
+        }
+        .banner-title{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 75px;
+            text-align: center;
+        }
+        .banner-description{
+            text-align: center;
+            font-weight: 400;
+            font-size: 16px;        
+            text-align: center;
+            color: #757575;
+        }
+        .btn-primary-color{
+            color: white;
+            background-color: orange;
+            border: 0px;
+            width: 180px;
+            height: 64px;
+            border-radius: 5px;
+            font-weight: 700;
+            font-size: 20px;
+            padding: 18px,35px;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            
+        }
+        .banner img{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 50%;
+                    margin-bottom: 32px;
+
+        }
+        .feature{
+            display: flex;
+            justify-content: space-around;
+            margin: 50px;
+            
+        }
+        .img4{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 5px;
+        
+        }
+        .feature-description{
+            margin-left: 50px;
+            margin-top: 250px;
+        }
+        .f-title .f-title1{
+            font-weight: 500;
+            font-size: 45px;
+            color: #757575;
+        }
+
+        .f-title .f-title2{
+            font-weight: 700;
+            font-size: 45px;
+            color: black;
+        }
+        .f-title .f-title3{
+            font-weight: 700;
+            font-size: 45px;
+            color: orange;
+        }
+        .f-description{
+            font-weight: 400;
+            font-size: 16px;
+            color: #757575;
+        }
+        .favourite{
+            display: flex;
+            margin: 50px;
+        }
+        h2{
+            font-size: 45px;
+            font-weight: 700;
+            padding: 20px 40px;
+        }
+        .favourite-description
+        {
+            font-weight: 400;
+            font-size: 20px;
+            color: #757575;
+        }
+        .blogs{
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0px 6px 5px;
+            
+        }
+        .img1{
+            margin-left: 50px;
+        }
+        .blog-title{
+            font-size: 20px;
+            font-weight: 600;
+
+        }
+        .blog-description{
+            font-size: 16px;
+            font-weight: 400;
+            color: #757575;
+
+        }
+        .sf-title{
+            font-size: 45px;
+            font-weight: 700;
+            margin-left: 50px;
+        }
+        .sf-description{
+            font-size: 16px;
+            font-weight: 400;
+            color: #757575;
+            margin-left: 50px;
+
+        }
+        .sf-container{
+            display: flex;
+            margin: 50px;
+            justify-content: space-between;
+          }
+        .box{
+            text-align: center;
+            align-items: center;
+            background-color: white;
+            border-color: orange;
+            border-radius: 5px;
+            box-shadow: 0px 5px 5px;
+            width: 241.85px;
+            height: 241.85px;
+
+
+            
+        }
+        .container-title{
+            font-size: 45px;
+            font-weight: 600;
+        }
+        .container-description{
+            font-size: 20px;
+            font-weight: 400;
+            color: #757575;
+        }
+        .sponsors-container{
+            display: flex;
+            margin: 50px;
+            justify-content: space-between;
+        }
+        .sponsors-title{
+            text-align: center;
+            font-weight: 700;
+            font-size: 45px;
+        }
+        .sponsors-description{
+            text-align: center;
+            font-weight: 400;
+            font-size: 20px;
+            color: #757575;
+        }
+        footer{
+            width: 1150px;
+            height: 50px;
+            background-color:#FFF4E7;
+            margin: 50px;
+        }
+        .footer-title{
+            text-align: center;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 400;
+            color: #757575;
+        }
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <h2 class="header-title">G3 Architects</h2>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+                <li>Login</li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <h2 class="banner-title">Brand New <br> Group of Architects</h2>
+            <p class="banner-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in <br> some form, by injected humour, or randomised words which don't look even</p>
+            <button class="btn-primary-color">Explore More</button>
+            <img src="./images/banner.png">
+        </div>
+    </header>
+    <main>
+        <section class="blogs">
+            <div class="feature">
+                <div class="img4">
+                    <div>
+                    <img src="./images/team1.png">
+                    </div>
+                    <div>
+                    <img src="./images/team2.png">
+                    </div>
+                    <div>
+                    <img src="./images/team3.png">
+                    </div>
+                    <div>
+                    <img src="./images/team4.png">
+                    </div>
+                </div>
+                <div class="feature-description">
+                    <h3 class="f-title"><span class="f-title1">Quick list</span><span class="f-title2"> of Our <span class="f-title3">Feature</span></h3>
+                    <p class="f-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                    <button class="btn-primary-color">Explore More</button>
+                </div>
+            </div>
+        </section>
+        <section class="favourite">
+            <div class="fav-description">
+            <h2 class="favourite-title">Features you will love & enjoy</h2>
+            <p class="favourite-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+        
+                <article class="blogs">
+                    <h3 class="blog-title">Dextop and Mobile version</h3>
+                    <p class="blog-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi velit expedita quisquam beatae saepe, soluta dolor voluptates a ad quod recusandae libero consectetur blanditiis tenetur animi laborum omnis incidunt placeat!</p>
+                </article>
+                <article class="blogs">
+                    <h3 class="blog-title">Drag and Drop Builder</h3>
+                    <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cupiditate itaque quo reiciendis possimus mollitia sunt voluptatibus numquam laudantium deserunt, quidem quod, nihil laborum vitae reprehenderit. Culpa enim placeat consectetur?</p>
+                </article>
+                <article class="blogs">
+                    <h3 class="blog-title">Awesome Modern Design</h3>
+                    <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum, impedit facere provident obcaecati atque, possimus accusamus voluptatem tenetur perspiciatis sed neque fugit quis? Pariatur debitis numquam sunt facere delectus.</p>
+                </article>
+                <article class="blogs">
+                    <h3 class="blog-title">Super Easy to Edit</h3>
+                    <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sunt ratione eaque voluptas, laborum non ab eveniet quos harum, saepe aspernatur, repudiandae excepturi dolores quo omnis hic blanditiis nulla illo!</p>
+                </article>
+            </div>
+            <div class="img1">
+                <img src="./images/architect.png">
+                <button class="btn-primary-color">10 Year+<br>Experience</button>
+            </div>
+        </section>
+        <section class="some-fact">
+            <h3 class="sf-title">Some Facts</h3>
+            <p class="sf-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quidem! </p>
+            <div class="sf-container">
+                <div class="box">
+                    <img src="./images/icons/ribon.png">
+                    <h3 class="container-title">54</h3>
+                    <p class="container-description">Award Winning</p>
+
+                </div>
+                <div class="box">
+                    <img src="./images/icons/projects.png">
+                    <h3 class="container-title">1458</h3>
+                    <p class="container-description">Projects Finished</p>
+
+                </div>
+                <div class="box">
+                    <img src="./images/icons/email.png">
+                    <h3 class="container-title">22578</h3>
+                    <p class="container-description">E-mail</p>
+
+                </div>
+                <div class="box">
+                    <img src="./images/icons/customers.png">
+                    <h3 class="container-title">2550</h3>
+                    <p class="container-description">Clients</p>
+
+                </div>
+            </div>
+        </section>
+        <section class="sponsors">
+                <h3 class="sponsors-title">Our sponsors</h3>
+                <p class="sponsors-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, aliquam.</p>
+                <div class="sponsors-container">
+                <img src="./images/sponsors/amazon.png" alt="">
+                <img src="./images/sponsors/figma.png" alt="">
+                <img src="./images/sponsors/google.png" alt="">
+                <img src="./images/sponsors/spotify.png" alt="">
+                <img src="./images/sponsors/telerama.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+         <p class="footer-title"> All rights reserved copyright@2023 startup landing page design </p>
+    </footer>
+    
+</body>
+</html>
